@@ -1,0 +1,28 @@
+.gridElement{
+    height: 20px;
+    width: 20px;
+    /* border:1px solid black; */
+    box-sizing:border-box;
+    transition:all;
+    
+}
+.hovered{
+    background-color: black;
+}
+/* .gridElement:hover{
+    background-color:black;
+}
+
+.gridElement:not(:hover){
+    transition: all;
+    transition-delay: .2s;
+    background-color:white;
+} */
+
+.gridContainer{
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+     border:1px solid black;
+}
+
